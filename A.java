@@ -1,33 +1,13 @@
-package com.kri;
+package com.praveen;
 
-  class A {
-public static void main(String[]args){
-	R obj=new R();
-	obj.school();
-}
-
-}
-    abstract class T{
-	abstract void school();
-}
-	 
-	 class C extends T { 	 
-		 void school(){
-			 System.out.println("print b");
-		 }
-
+public class A {
 	
-	 }
 	
-class R extends C{
- void school()
- {
-	 System.out.println("gold coine");
- }
+	static int a=34;
+	
+	public static void main(String[]args){
+		System.out.println(a);
+		
+	}
+
 }
- 
-  
-
-	
-
-
