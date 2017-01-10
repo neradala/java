@@ -1,34 +1,49 @@
-package com.krishna;
-
+package com.program;
+import java.util.Scanner;
 public class E {
+	
 	public static void main(String[]args){
-		R obj=new R();
-		obj.money();
-		obj.snake();
-	}		
-}
+		
+		int a,b=34;
+		
+		
+		System.out.println("print the number upto thirty four");
+		
+		
+        Scanner obj=new Scanner(System.in);
+        
+        a=obj.nextInt();
+        
+        for(b=34;b<54;b++){
+        	
+        	
+        	System.out.println(b);
+        	
+        	
+        	
+        	
+        	
+        }
+			
+			
+			
+		}
+		
+		
+	}
 
-interface T{
-	void money();
 	
-}
-interface V{
-	void snake();
 	
-}
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
 
- class R implements T,V{
-	public  void money()
- 
-	 {
-		 System.out.println("complete the work in day");
-	 }
- 
-public void snake ()
-	 {
-		 System.out.println("complete the work per hour");
-	 }
- }
- 	 
-	 
- 
+
