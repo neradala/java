@@ -1,26 +1,29 @@
-package com.kri;
+package com.hs;
 
-class S {
-	public static void main(String[] args) {
-		E obj = new E();
-		obj.village();
+public class S {
+	
+public static void main(String[]args){
+	
+	try
+	{
+		int dat= 40/0;
+		
+	}catch (Exception e )
+	
+	{
+	
+		
+		
 	}
-
+	System.out.println("print the code of forth by zero");
 }
-
-abstract class K {
-	abstract void village();
-
+	
+	
 }
+	
+	
+	
+	
+	
 
-class Y extends K {
-	void village() {
-		System.out.println("write village name");
-	}
-}
 
-class E extends K {
-	void village() {
-		System.out.println("write village place");
-	}
-}

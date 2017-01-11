@@ -1,49 +1,29 @@
-package com.program;
-import java.util.Scanner;
+package com.hs;
+
 public class E {
 	
 	public static void main(String[]args){
+		try
+		{
 		
-		int a,b=34;
+		int a []=new int[7] ;
+		
+		a[7]=40/0;
+		}catch(Exception e)
+		
+		{	
+		
+		System.out.println("print number");
+		
+		System.out.println("print number q");
+		
+		System.out.println("print number r");
 		
 		
-		System.out.println("print the number upto thirty four");
 		
-		
-        Scanner obj=new Scanner(System.in);
-        
-        a=obj.nextInt();
-        
-        for(b=34;b<54;b++){
-        	
-        	
-        	System.out.println(b);
-        	
-        	
-        	
-        	
-        	
-        }
-			
-			
-			
+	
 		}
-		
-		
+		}	
+	
 	}
-
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-
 

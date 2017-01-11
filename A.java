@@ -1,29 +1,33 @@
-package com.program;
-import java.util.Scanner;
+package com.hs;
 
 public class A {
-public static void main(String[]args){
-	Scanner obj=new Scanner(System.in);
-	int a;
 	
-	System.out.println("enter the valu");
+	public static void main(String[]args){
+try
+	{
+		
+		int q=40/0;
+		
+
 	
-	a=obj.nextInt();
-	
-	System.out.println(a);
-	
-	
-	
-	
-	
-	
-	
+	}catch(ArithmeticException e)
+
+
+{
+		System.out.println("prent a letter");
+}
+
+
+
+
+
+System.out.println("print the number or letter");
 }
 	
+}		
+
+
 	
 	
-	
-	
-	
-	
-}
+
+
